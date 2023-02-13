@@ -1,2 +1,2 @@
 #!/bin/bash
-echo 'Replace all characters `A` and `c` from input to `Z` and `e`.' | while read -n 1 c; do [ "$c" = "A" ] && c
+tr Ac Ze
