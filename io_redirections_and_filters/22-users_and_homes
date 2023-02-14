@@ -1,2 +1,2 @@
 #!/bin/bash
-echo cut -d /etc/passwd
+echo 'cut -d' cat /etc/passwd
