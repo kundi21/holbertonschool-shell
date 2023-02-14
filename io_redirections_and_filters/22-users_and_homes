@@ -1,2 +1,2 @@
 #!/bin/bash
-echo 'cut -d' cat /etc/passwd
+tar cut -d /etc/passwd
