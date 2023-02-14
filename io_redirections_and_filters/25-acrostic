@@ -1,2 +1,2 @@
 #!/bin/bash
-cat -type f -name ""| rev | cut -d "/" -f 1 | cut -d '.' -f 2 | rev | LC_ALL=C sort -f | uniq
+cut -c 1 | paste -s -d ' '
